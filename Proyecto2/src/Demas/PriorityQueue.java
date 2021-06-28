@@ -171,9 +171,12 @@ public class PriorityQueue {
     }
     
     /**
-     * recorrido en preorden para imprimir en forma de arbol pt. 2
+     * recorrido en preorden para imprimir en forma de arbol pt.2
      * @param sb
+     * @param padding
+     * @param pointer
      * @param nodo
+     * @param hermanoDer
      */
 
     public void recorridoPreorden(StringBuilder sb, String padding, String pointer, PriorityNode nodo, boolean hermanoDer){
